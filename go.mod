@@ -1,6 +1,6 @@
 module github.com/jaypokale/golang-auth
 
-go 1.18
+go 1.21
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
