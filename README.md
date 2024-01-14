@@ -42,6 +42,7 @@ Your project should now be running locally.
 
 ## API Endpoints
 List and describe the main API endpoints of your application.
+```js
 │
 ├── Auth
 │   ├── POST http://localhost:3000/auth/signup
@@ -69,16 +70,17 @@ List and describe the main API endpoints of your application.
 │   └── DELETE http://localhost:3000/users
 │       └── Header: { key }
 │
-├── Admin
-│   ├── GET http://localhost:3000/admin
-│   │   └── Header: { key }
-│   ├── GET http://localhost:3000/admin/{id}
-│   │   └── Header: { key }
-│   ├── PUT http://localhost:3000/admin/{id}
-│   │   ├── Header: { key }
-│   │   └── Body: {
-│   │               "name": "Changed Name",
-│   │               "email": "changed@example.com",
-│   │             }
-│   └── DELETE http://localhost:3000/admin/{id}
-│       └── Header: { key }
+└── Admin
+    ├── GET http://localhost:3000/admin
+    │   └── Header: { key }
+    ├── GET http://localhost:3000/admin/{id}
+    │   └── Header: { key }
+    ├── PUT http://localhost:3000/admin/{id}
+    │   ├── Header: { key }
+    │   └── Body: {
+    │               "name": "Changed Name",
+    │               "email": "changed@example.com",
+    │             }
+    └── DELETE http://localhost:3000/admin/{id}
+        └── Header: { key }
+```
